@@ -21,7 +21,7 @@
         margin: 0;
         display: flex;
         justify-content: center;
-        background-image: url("https://drive.google.com/uc?id=1LuQxggenEc4QZuzqPDBsGl0G5jmTWLe9");
+        background-image: url("http://drive.google.com/uc?export=view&id=1LuQxggenEc4QZuzqPDBsGl0G5jmTWLe9");
       }
 
       .container {
@@ -62,15 +62,15 @@
       }
 
       #image1 {
-       <img src="http://drive.google.com/uc?export=view&id=1dwNdkA7sR6sOKEQJOSsq7CdqvI-qxWWF">;
+        background-image: url("http://drive.google.com/uc?export=view&id=1dwNdkA7sR6sOKEQJOSsq7CdqvI-qxWWF");
       }
 
       #image2 {
-        background-image: url("https://drive.google.com/uc?id=1sD6HDMwfEhfy8LKa3HLz8ZLHnVQnv95I");
+        background-image: url("http://drive.google.com/uc?export=view&id =1sD6HDMwfEhfy8LKa3HLz8ZLHnVQnv95I");
       }
 
       #image3 {
-        background-image: url("https://drive.google.com/uc?id=1iXUt9NfwlLPWzBltePWpF8s1ASGaJUUC");
+        background-image: url("http://drive.google.com/uc?export=view&id =1iXUt9NfwlLPWzBltePWpF8s1ASGaJUUC");
       }
 
       #image4 {
@@ -92,13 +92,13 @@
       }
 
       .video {
-	    width: 100%;
-	    height: 100%;
+       width: 100%;
+       height: 100%;
     }   
     /* opacity : 투명도를 의미해요! opacity는 1에 가까워 질 수록 불투명하다. 즉 다 보인다. */
     
     .showText {
-	    opacity: 1;
+       opacity: 1;
         transition: opacity 0.5s linear;
     }
 
@@ -106,7 +106,7 @@
 /* transition : 나타날 때 0.5초동안 천천히 나타나는 효과를 주라는 의미에요 */
     
     .hideText {
-	    opacity: 0;
+       opacity: 0;
     }
     </style>
     <script>
@@ -145,7 +145,7 @@ function hideText(number) {
 // 클릭 기능
 // 1. 선택된 사진의 숫자를 가진 텍스트를 alert 형태로 출력해줌
 function alertText(number) {
-	alert(포촌쿠키 제주도 여행🍊🧡);
+   alert(포촌쿠키 제주도 여행🍊🧡);
 }
     </script>
   </head>
@@ -153,38 +153,35 @@ function alertText(number) {
     <div class="container">
       <div class="photos">
         <div
-	        id="image1"
-
-img src="http://drive.google.com/uc?export=view&id=1dwNdkA7sR6sOKEQJOSsq7CdqvI-qxWWF"
-
-	        class="photo-frame"
-	        onmouseover="showText(1)"
-	        onmouseout="hideText(1)"
-	        onclick="alertText(1)"
+           id="image1"
+           class="photo-frame"
+           onmouseover="showText(1)"
+           onmouseout="hideText(1)"
+           onclick="alertText(1)"
         >
-	<span id="desc1" class="photo-description">
-		엄지 아이폰 위기 직전
-	</span>
+   <span id="desc1" class="photo-description">
+      엄지 아이폰 위기 직전
+   </span>
 </div>
 <div
-	id="image2" class="photo-frame"
-	onmouseover="showText(2)"
-	onmouseout="hideText(2)"
-	onclick="alertText(2)"
+   id="image2" class="photo-frame"
+   onmouseover="showText(2)"
+   onmouseout="hideText(2)"
+   onclick="alertText(2)"
 >
-	<span id="desc2" class="photo-description">
-		제주 바람을 뚫고
-	</span>
+   <span id="desc2" class="photo-description">
+      제주 바람을 뚫고
+   </span>
 </div>
 <div
-	id="image3"
-	class="photo-frame"
-	onmouseover="showText(3)"
-	onmouseout="hideText(3)"
-	onclick="alertText(3)"
+   id="image3"
+   class="photo-frame"
+   onmouseover="showText(3)"
+   onmouseout="hideText(3)"
+   onclick="alertText(3)"
 >
-	<span id="desc3" class="photo-description">
-	
+   <span id="desc3" class="photo-description">
+   
 </span>
 </div>
         <div class="photo-frame">
